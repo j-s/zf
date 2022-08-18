@@ -24,7 +24,7 @@ export const customTheme = createTheme(theme, {
     ...colors,
     secondary: colors.primary,
     tertiary: colors.secondary,
-    onAccent: '#3D3B40',
+    onAccent: '#ffffff',
     onNegative: '#ffffff',
   },
   radii: {

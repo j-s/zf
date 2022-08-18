@@ -253,7 +253,7 @@ export function MintStatus({
         <Flex gap="x3" flexChildren justify="space-between" align="flex-end" wrap="wrap">
           <Stack gap="x1" style={{ flex: 'none' }}>
             <Eyebrow>Price</Eyebrow>
-            <Heading size="sm" color="tertiary" className={priceDateHeading}>
+            <Heading size="sm" color="#000000" className={priceDateHeading}>
               {internalPrice === '0'
                 ? 'Free'
                 : `${formatCryptoVal(Number(internalPrice) * (mintCounter || 1))} ETH`}

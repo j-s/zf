@@ -92,7 +92,7 @@ export function MintDetails({
                     <Text variant="paragraph-sm" color="tertiary">
                       Mint price
                     </Text>
-                    <Text variant="paragraph-sm">
+                    <Text variant="paragraph-sm" color="tertiary">
                       {collection.salesConfig.publicSalePrice === '0'
                         ? 'Free'
                         : `${formatCryptoVal(
